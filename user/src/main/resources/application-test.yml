@@ -1,0 +1,14 @@
+server:
+  port: 8001
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://114.55.97.210:3307/blog
+    username: root
+    password: sgw1314XY
+  application:
+    name: user
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 114.55.97.210:8848

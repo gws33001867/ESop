@@ -1,9 +1,3 @@
-server:
-  port: 8003
 spring:
-  application:
-    name: user
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8001/eureka
+  profiles:
+    active: test
