@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: dubbo-consumer-user
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: 114.55.97.210:8848
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://114.55.97.210:3307/micro_user
+    username: root
+    password: sgw1314XY
+dubbo:
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: -1
+  cloud:
+    subscribed-services: dubbo-consumer-user,user
+server:
+  port: 8003

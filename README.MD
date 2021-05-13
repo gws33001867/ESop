@@ -19,4 +19,9 @@
 
 2021.5.12重新搭建 基于springcloud alibaba框架的电商项目
 
-主要组件：nacos注册中心与配置中心，seata分布式事务解决方案，Sentinel 服务容错解决方案（初步不需要要添加），Dubbo（RPC调用）
+主要组件：nacos 注册中心与配置中心，seata 分布式事务解决方案，Sentinel 服务容错解决方案（初步不需要要添加），Dubbo（RPC调用）
+
+生产者模块:（提供基本服务的模块）
+    user,product,order,sms,wms...
+消费者模块:
+    给前端，小程序等调用的api

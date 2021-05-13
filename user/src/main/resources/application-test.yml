@@ -3,7 +3,7 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://114.55.97.210:3307/blog
+    url: jdbc:mysql://114.55.97.210:3307/micro_user
     username: root
     password: sgw1314XY
   application:
@@ -12,3 +12,20 @@ spring:
     nacos:
       discovery:
         server-addr: 114.55.97.210:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8719
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+dubbo:
+  scan:
+    base-packages: com.sp.user.service
+  protocol:
+    port: -1
+    id: dubbo
+#  registry:
+#    address: spring-cloud://114.55.97.210

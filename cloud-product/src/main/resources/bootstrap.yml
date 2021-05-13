@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        enabled: true
+        prefix: product
+        server-addr: 114.55.97.210:8848
+        file-extension: yaml

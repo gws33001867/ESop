@@ -2,6 +2,12 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/cloud-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-db-cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-db-cache/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-dubbo-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-dubbo-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-user-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user/src/main/java" charset="UTF-8" />
   </component>
 </project>
