@@ -25,3 +25,22 @@
     user,product,order,sms,wms...
 消费者模块:
     给前端，小程序等调用的api
+## 用户模块
+    需求分析：
+        1.多种登录方式：手机，微信，qq,微博
+        2.可进行绑定和解绑或更换绑定:用户使用任意方式登录后可绑定和解绑或者绑定其他登录授权
+        3.支持unionid（针对QQ/微信等）：如果开发者拥有多个移动应用，网站应用和公众号，可通过过去用户基本信息中的unionid来区分用户的唯一性，因为只要是同一个微信开放平台账号下
+        的移动应用，网站应用和公众账号，用户的unionid是惟一的。
+
+### 用户表😊
+    1.users
+
+|    字段    |   类型    |  键  | 为空 | 默认 |     备注     |
+| :--------: | :-------: | :--: | :--: | :--: | :----------: |
+|     id     |    int    | PRI  |  no  |      | 用户唯一索引 |
+|    name    |  varchar  |      |  no  |      |   用户昵称   |
+| avatar_url |  varchar  |      | yes  |      |   头像地址   |
+|   phone    |  varchar  | UNI  | yes  |      |    手机号    |
+|  password  |  varchar  |      | yes  |      |    手机号    |
+| created_at | timestamp |      |  no  |      |   创建时间   |
+| updated_at | timestamp |      | yes  |      |   更新时间   |
