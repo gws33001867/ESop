@@ -44,3 +44,5 @@
 |  password  |  varchar  |      | yes  |      |    手机号    |
 | created_at | timestamp |      |  no  |      |   创建时间   |
 | updated_at | timestamp |      | yes  |      |   更新时间   |
+
+Java代码中需要再次开发的使用TODO注解
